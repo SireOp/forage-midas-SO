@@ -12,7 +12,7 @@ public class TransactionRecord {
     private long transactionRecordId;
     private long senderId;
     private long recipientId;
-    private float senderAmount;
+    private float senderBalance;
     private float transactionAmount;
 
     public TransactionRecord(){
@@ -43,12 +43,12 @@ public class TransactionRecord {
         this.recipientId = recipientId;
     }
 
-    public float getSenderAmount() {
-        return senderAmount;
+    public float getSenderBalance() {
+        return senderBalance;
     }
 
-    public void setSenderAmount(float senderAmount) {
-        this.senderAmount = senderAmount;
+    public void setSenderBalance(float senderBalance) {
+        this.senderBalance = senderBalance;
     }
 
     public float getTransactionAmount() {
